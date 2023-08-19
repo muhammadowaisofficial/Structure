@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <>
     <TopBar />
-    <header className="sticky top-0 z-10 w-full border-b bg-[#000] px-4 py-4left-0">
+    <header className="sticky top-0 z-10 w-full border-b bg-[#000] px-4 py-4 left-0">
     <Navbar />
     </header>
     </>

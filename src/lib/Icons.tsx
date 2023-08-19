@@ -36,6 +36,11 @@ import {
   Trash2,
   ArrowDownUp,
   Pencil,
+  Mail,
+  Linkedin,
+  Phone,
+  Github,
+  MapPin,
 } from "lucide-react";
 
 export const Icons = {
@@ -81,6 +86,12 @@ export const Icons = {
   view: Eye,
   edit: Edit,
   delete: Trash2,
+  mail: Mail,
+  instagram: Instagram,
+  linkedin: Linkedin,
+  phone:Phone,
+  github:Github,
+  location: MapPin,
 
   signin: (props: LucideProps) => (
     <svg
