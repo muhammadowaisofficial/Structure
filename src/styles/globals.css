@@ -116,7 +116,17 @@
     }
   }
 
-  /* ------------------------------Quill Editor Styles------------------------------ */
+  .grandian {
+    background: rgb(0,96,27);
+    background: linear-gradient(90deg, rgba(0,96,27,0.3169642857142857) 0%, rgba(225,0,25,0.38139005602240894) 80%);
+  }
+
+  .grandian-bg {
+    background-image:
+    linear-gradient(150deg, rgba(0,96,27,0.3169642857142857) 0%, rgba(225,0,25,0.38139005602240894) 100%);
+}
+
+    /*===== Quill Editor Styles =====*/
 
   .ql-toolbar{
     border-color: hsl(var(--input)) !important;
@@ -147,4 +157,61 @@
     color: hsl(var(--quill-icons)) !important;
   }
 
-  /* ------------------------------------------------------------------------------------------ */
+  /*===== Animations =====*/
+.floatAnim {
+  position: absolute;
+  -webkit-animation: floatAnim 9s infinite;
+  animation: floatAnim 9s infinite;
+}
+@keyframes floatAnim {
+  0% {
+    -webkit-transform: translateY(0%) rotate(-55deg);
+    transform: translateY(0%) rotate(-55deg);
+  }
+  50% {
+    -webkit-transform: translateY(150%) rotate(55deg);
+    transform: translateY(150%) rotate(55deg);
+  }
+  100% {
+    -webkit-transform: translateY(0%) rotate(-55deg);
+    transform: translateY(0%) rotate(-55deg);
+  }
+}
+@-webkit-keyframes floatAnim {
+  0% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+  50% {
+    -webkit-transform: translateY(150%);
+    transform: translateY(150%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+.animDelay1 {
+  -webkit-animation-delay:-2.3s;
+  animation-delay:-2.3s;
+}
+.animDelay2 {
+  -webkit-animation-delay:-3.35s;
+  animation-delay:-3.35s;
+}
+.animDelay3 {
+  -webkit-animation-delay:-4.45s;
+  animation-delay:-4.45s;
+}
+.animDelay4 {
+  -webkit-animation-delay:-1.75s;
+  animation-delay:-1.75s;
+}
+.animDelay5 {
+  -webkit-animation-delay:-.95s;
+  animation-delay:-.95s;
+}
+.animDelay6 {
+  -webkit-animation-delay:-1.25s;
+  animation-delay:-1.25s;
+}

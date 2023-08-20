@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <footer className="Footer overflow-hidden">
       {/* Main Footer */}
-      <div className="footer_top border-t bg-white px-4 py-5  dark:bg-background  xl:py-[60px] 2xl:bg-[url('/images/bg-footer.webp')] 2xl:py-[60px]">
-        <div className="grid grid-cols-1 gap-3 xl:grid-cols-3 2xl:grid-cols-5">
+      <div className="footer_top border-t px-4 py-5 bg-black dark:bg-background xl:py-[60px] 2xl:py-[60px]">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4">
           {/* Footer Info */}
           <div className="info_footer">
-            <Link aria-label="logo" href={"/"} className="w-fit">
+            <Link aria-label="logo" href={webinfo.Website_Url} className="w-fit">
               <NextImage
                 src={"/images/logo.webp"}
                 alt="Footer Logo"
@@ -20,19 +20,19 @@ const Footer = () => {
                 width={250}
               />
             </Link>
-            <p className="web_desc my-5 text-[14px] text-black dark:text-white">
-              Full-stack Web, Mobile Developer.
+            <p className="web_desc my-5 text-[14px] text-white dark:text-white">
+            Hi, I am a full-stack developer 🧑‍💻 with solid experience in creating user-friendly, upstanding, secure, and fast websites for businesses around the world. Whether you need a full-fledged application with all the custom features or a simple website to showcase your products and services, I am here to help.
             </p>
           </div>
           {/* Quick Links */}
           <div className="quick_links">
-            <h2 className="mb-6 text-[20px] text-black dark:text-white">
+            <h2 className="mb-6 text-[20px] text-white dark:text-white">
               Quick Links
             </h2>
             <Link
               aria-label="Home"
               href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-white dark:text-white"
             >
               <Icons.play className="h-[14px] w-[14px]" />
               Home
@@ -40,7 +40,7 @@ const Footer = () => {
             <Link
               aria-label="About Us"
               href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-white dark:text-white"
             >
               <Icons.play className="h-[14px] w-[14px]" />
               About Us
@@ -48,7 +48,7 @@ const Footer = () => {
             <Link
               aria-label="Packages"
               href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-white dark:text-white"
             >
               <Icons.play className="h-[14px] w-[14px]" />
               Packages
@@ -56,7 +56,7 @@ const Footer = () => {
             <Link
               aria-label="Portfolio"
               href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-white dark:text-white"
             >
               <Icons.play className="h-[14px] w-[14px]" />
               Portfolio
@@ -64,7 +64,7 @@ const Footer = () => {
             <Link
               aria-label="Reviews"
               href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-white dark:text-white"
             >
               <Icons.play className="h-[14px] w-[14px]" />
               Reviews
@@ -72,13 +72,13 @@ const Footer = () => {
           </div>
           {/* Services */}
           <div className="services">
-            <h2 className="mb-6 text-[20px] text-black dark:text-white">
+            <h2 className="mb-6 text-[20px] text-white dark:text-white">
               Services
             </h2>
             <Link
               aria-label="Website Development"
               href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-white dark:text-white"
             >
               <Icons.play className="h-[14px] w-[14px]" />
               Website Development
@@ -86,7 +86,7 @@ const Footer = () => {
             <Link
               aria-label="Logo Design"
               href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-white dark:text-white"
             >
               <Icons.play className="h-[14px] w-[14px]" />
               Logo Design
@@ -94,7 +94,7 @@ const Footer = () => {
             <Link
               aria-label="Ecommerce Solutions"
               href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-white dark:text-white"
             >
               <Icons.play className="h-[14px] w-[14px]" />
               Ecommerce Solutions
@@ -102,51 +102,21 @@ const Footer = () => {
             <Link
               aria-label="Animation"
               href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-white dark:text-white"
             >
               <Icons.play className="h-[14px] w-[14px]" />
               Animation
             </Link>
           </div>
-          {/* More Services */}
-          <div className="more-services">
-            <h2 className="mb-6 text-[20px] text-black dark:text-white">
-              More Services
-            </h2>
-            <Link
-              aria-label="Creative Copywriting"
-              href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
-            >
-              <Icons.play className="h-[14px] w-[14px]" />
-              Creative Copywriting
-            </Link>
-            <Link
-              aria-label="Mobile Apps"
-              href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
-            >
-              <Icons.play className="h-[14px] w-[14px]" />
-              Mobile Apps
-            </Link>
-            <Link
-              aria-label="SEO Servicess"
-              href={"/"}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-1 text-black dark:text-white"
-            >
-              <Icons.play className="h-[14px] w-[14px]" />
-              SEO Servicess
-            </Link>
-          </div>
           {/* Contact */}
           <div className="Contact_info">
-            <h2 className="mb-6 text-[20px] text-black dark:text-white">
+            <h2 className="mb-6 text-[20px] text-white dark:text-white">
               Get in Touch Now!
             </h2>
             <Link
               aria-label="Number"
               href={webinfo.Phone_URL}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-3 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-3 text-white dark:text-white"
             >
               <Icons.phone className="h-[18px] w-[18px]" />
               {webinfo.Phone_Number}
@@ -154,7 +124,7 @@ const Footer = () => {
             <Link
               aria-label="Email"
               href={webinfo.Email_Url}
-              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-3 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue mb-2 flex items-center justify-start gap-3 text-white dark:text-white"
             >
               <Icons.mail className="h-[18px] w-[18px]" />
               {webinfo.Email}
@@ -162,7 +132,7 @@ const Footer = () => {
             <Link
               aria-label="Address"
               href={"#"}
-              className="tex-[14px] hover:text-blue relative mb-2 flex items-center justify-start gap-3 text-black dark:text-white"
+              className="tex-[14px] hover:text-blue relative mb-2 flex items-center justify-start gap-3 text-white dark:text-white"
             >
               <Icons.location className="h-[18px] w-[18px]" />
               {webinfo.Location}

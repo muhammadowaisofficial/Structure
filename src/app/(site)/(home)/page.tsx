@@ -1,10 +1,14 @@
 "use client";
 
+import AboutSec from "@/components/layout/Home/AboutSec";
+import Banner from "@/components/layout/Home/Banner";
+
 const page = () => {
 
   return (
     <>
-    <h1>Home page</h1>
+    <Banner />
+    <AboutSec />
     </>
   );
 };

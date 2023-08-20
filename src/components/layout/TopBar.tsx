@@ -6,7 +6,7 @@ import React, { FC } from 'react'
 
 const TopBar:FC = () => {
   return (
-    <div className="flex items-center justify-between bg-[#f53629] py-[10px] px-4 text-white">
+    <div className="relative z-10 flex items-center justify-between bg-[#f53629] py-[5px] px-4 text-white">
       {/* Left Side Social Icons */}
       <div className="social_icons flex items-center">
         <Link href={webinfo.FaceBook_Url} className='border-r border-white px-3 hover:text-caribbeangreen' target='_blank'>

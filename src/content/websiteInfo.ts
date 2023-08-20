@@ -11,7 +11,7 @@ const webinfo = {
     Cv_Url: "#",
     FaceBook_Url: "#",
     Instagram_Url: "#",
-    Linkedin_Url: "#",
+    Linkedin_Url: "https://www.linkedin.com/in/mohammadowaisofficial",
     Phone_Url: "#",
     GitHub_Url: "#",
 }
