@@ -91,7 +91,7 @@
       @apply px-[15px] py-[30px] sm:px-[15px] sm:py-[30px] md:px-[30px] md:py-[30px] lg:px-[30px] lg:py-[30px] xl:px-[50px] xl:py-[50px] 2xl:px-[50px] 2xl:py-[50px];
     }
     .div_container {
-      @apply max-w-[1200px] mx-auto
+      @apply 2xl:max-w-[1366px] max-w-[1200px] mx-auto
     }
     .gradient_text {
       @apply  text-transparent bg-clip-text bg-gradient-to-r from-blue to-purpule max-w-fit

@@ -7,9 +7,9 @@ import webinfo from '@/content/websiteInfo'
 
 function SocialMedia() {
   return (
-    <div className='menuWrap flex flex-col items-center justify-between border-2 border-solid border-[#f6371c] rounded-full z-[999] w-[6.25rem] px-3 py-[50px] h-[75vh] relative left-[50px]'>
+    <div className='hidden menuWrap 2xl:flex xl:flex flex-col items-center justify-between border-2 border-solid border-[#f6371c] rounded-full z-[1] w-[6.25rem] px-3 py-[50px] 2xl:h-[65vh] h-[75vh] relative left-[50px]'>
         <div className='socialMedia flex flex-col items-center justify-center'>
-          <div className="socials text-white flex flex-col gap-2">
+          <div className="socials text-white flex flex-col gap-2 2xl:gap-5">
             <Link
               href={webinfo.FaceBook_Url}
               className="hover:text-[#f6371c]"

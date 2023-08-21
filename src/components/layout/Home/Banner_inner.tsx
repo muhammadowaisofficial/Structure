@@ -5,8 +5,8 @@ import React from 'react'
 
 function Banner_inner() {
   return (
-    <div className="div_container justify-between items-center flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row 2xl:flex-row  gap-5 p-[80px] relative z-10">
-        <div className="w-2/4">
+    <div className="div_container justify-between items-center flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row 2xl:flex-row  gap-5 p-[80px] lg:px-[30px] md:px-[30px] sm:px-[30px] sx:px-[30px] relative z-10">
+        <div className="2xl:w-2/4 xl:w-2/4 lg:w-4/4">
           <span className="absolute top-[-2.5rem] z-[-1] h-[6.25rem] w-[6.25rem] rounded-full bg-[#f6371c] opacity-[.07] md:top-[-5rem] md:h-[12.5rem] md:w-[12.5rem]"></span>
           <h4 className="heading_h4 text-white">Hello, I Am</h4>
           <h1 className="heading_h1 text-white font-bold py-4">
@@ -19,7 +19,7 @@ function Banner_inner() {
             <span className="h-[1px] w-[2.5rem] bg-[#f6371c] sm:w-[3rem] md:w-[4.375rem]"></span>
             Full Stack Developer
           </h5>
-          <p className="text-white text-[14px] w-[80%]">
+          <p className="text-white text-[14px] 2xl:w-[80%] xl:w-[80%] lg:w-[80%] w-[100%]">
             Hi, I am a full-stack developer 🧑‍💻 with solid experience in creating
             user-friendly, upstanding, secure, and fast websites for businesses
             around the world. Whether you need a full-fledged application with
@@ -61,7 +61,7 @@ function Banner_inner() {
             </Link>
           </div>
         </div>
-        <div className="w-2/4">
+        <div className="2xl:w-2/4 xl:w-2/4 lg:w-3/4">
             <NextImage src="/images/Profile.webp" alt="Profile Image" width={1200} height={1200} />
         </div>
       </div>

@@ -1,13 +1,11 @@
 import NextImage from "@/components/NextImage";
-import webinfo from "@/content/websiteInfo";
 import React from "react";
-import Link from "next/link";
 import Banner_inner from "./Banner_inner";
 import SocialMedia from "./SocialMedia";
 
 function Banner() {
   return (
-    <div className="Hero_Sec grandian-bg rounded-br-0 relative mt-[-130px] h-[120vh] bg-[#070918] py-20 bg-blend-hard-light sm:rounded-br-[10rem] md:rounded-br-[15rem] lg:rounded-br-[18rem] xl:rounded-br-[20rem]">
+    <div className="Hero_Sec grandian-bg rounded-br-0 relative mt-[-130px] bg-[#070918] py-20 bg-blend-hard-light sm:rounded-br-[10rem] md:rounded-br-[15rem] lg:rounded-br-[18rem] xl:rounded-br-[20rem] 2xl:rounded-br-[20rem]">
       <div className="shaps absolute inset-0">
         <NextImage
           className="floatAnim animDelay1 absolute left-[10%] top-[10%]"
